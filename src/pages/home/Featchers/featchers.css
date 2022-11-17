@@ -35,8 +35,17 @@
     margin-bottom: 100px;
     color: #fff;
     font-weight: bolder;
-
+    word-spacing: 5px;
+    transition: 1.8s  ease-in-out  ;
 }
+
+.feather-title:hover {
+    /* word-spacing: 50px; */
+    letter-spacing: 10px;
+}
+
+
+
 
 
 .Feather-box    {

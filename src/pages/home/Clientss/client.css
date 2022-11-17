@@ -1,0 +1,37 @@
+#client {
+  padding: 100px 0;
+  opacity: 0.9;
+  background-image: url("../../../assets/images/client-ground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+}
+
+.client-content {
+}
+
+.client-box {
+  /* border: 1px solid blue; */
+}
+
+.client-box i {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.client-box h3 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.client-box p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+}

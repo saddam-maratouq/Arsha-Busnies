@@ -20,11 +20,11 @@ const FeatherColumn = () => {
     <div  className='col-lg-6' >
 
 
-         <h1 className='feather-title' >  We Are Creativity   </h1> 
+         <h1 className='feather-title' >  We Are leadership  </h1> 
 
          <div className='d-lg-flex Feather-box ' >
 
-          <div  className=' py-sm-5 py-lg-0 ' >
+          <div  className=' py-5 py-lg-0 ' >
           <i class="fa-sharp fa-solid fa-chart-simple"></i>
              <h2> Global Marketing  </h2>
              <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, itaque? </span>
@@ -39,7 +39,7 @@ const FeatherColumn = () => {
         
         
          <div className='d-lg-flex   Feather-box  ' >
-          <div className=' py-sm-5 py-lg-0 ' >
+          <div className=' py-5 py-lg-0 ' >
           <i class="fa-solid fa-calendar-days"></i>
              <h2> Events   </h2>
              <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, itaque? </span>

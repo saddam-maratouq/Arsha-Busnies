@@ -33,7 +33,7 @@ const Feathers = () => {
 
    <div className='d-lg-flex Feather-box ' >
 
-     <div     className=' F-box-content  py-sm-5 py-lg-0   '  >
+     <div     className=' F-box-content  py-5 py-lg-0   '  >
       <i class="fa-solid fa-wand-magic-sparkles"></i>
          <h2> Modern Design  </h2>
          <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, itaque? </span>
@@ -49,7 +49,7 @@ const Feathers = () => {
   
    <div className='d-lg-flex   Feather-box  ' >
 
-   <div  className=' F-box-content  py-sm-5 py-lg-0 ' >
+   <div  className=' F-box-content  py-5 py-lg-0 ' >
        <i class="fa-solid fa-thumbs-up"></i> 
           <h2> Solutions   </h2>
          <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, itaque? </span>
