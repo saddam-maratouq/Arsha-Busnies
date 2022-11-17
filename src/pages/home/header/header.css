@@ -1,16 +1,15 @@
 .header {
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    /* background-color: var(--main-color); */
-    padding: 250px 0;
+    padding: 180px 0;
     position: relative;
-    min-height: 120vh;
-
+    min-height: 10vh;
 }
+
 
 .header::before {
     content: '';
     position: absolute;
-  
     top: -210px;
     /* top: -40; */
     left: 0;
@@ -21,8 +20,6 @@
     transform: skewY(354deg);
     transform-origin: top right;
 }
-
-
 
 
 .title-content {
@@ -39,33 +36,39 @@
 
 .title-content span {
     font-size: 20px;
-    line-height: 20px;
+    /* line-height: 20px; */
     color: #fff9;
 
-   
 }
 
 .title-content button {
-    padding: 20px;
+    padding: 15px;
     border: 0;
     border-radius: 15px;
     background-color: #fff;
     color: var(--main-color);
-    margin-top: 50px;
+    margin-top: 90px;
     font-size: 20px;
+    transition: 1s ease-in-out;
+    font-size: 25px;
+
 } 
 
-
-
+.title-content button:hover {
+    transform: rotate(360deg);
+   
+}
 .header-img {
     overflow: hidden;
+    position: relative;
+    animation: up-down 5s linear infinite;
 }
 
 
 .drop-icon {
     position: absolute;
     left: 50%;
-    bottom: 3%;
+    bottom: 5%;
     transition: 0.8s ease-in-out;
     color: var(--Sec-color);
 }
@@ -73,4 +76,46 @@
 .drop-icon:hover {
     font-size: 60px;
     border-bottom: 2px solid var(--main-color);
+}
+
+
+/* Animation */
+    @keyframes up-down  {
+        0% , 100% {
+            top: 0;
+        }
+        50% {
+            top: -40px;
+        }
+
+    }
+
+
+
+
+/*  Media query   */
+
+
+@media screen and  (max-width : 540px)  {
+
+
+    header {
+        /* border: 1px solid blue; */
+        /* background-color: var(--main-color); */
+         padding: 0px 0;
+        
+     }
+    .header-title {
+        font-size: 35px;
+    }
+
+    .title-content {
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+
+.title-content button {
+    font-size: 18px;
+}
+
 }
