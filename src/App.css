@@ -1,24 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&family=Montserrat:wght@900&family=Raleway:ital,wght@0,400;0,900;1,700&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&family=Montserrat:wght@900&family=Raleway:ital,wght@0,400;0,900;1,700&display=swap');
-  
-  /* font-family: 'Raleway', sans-serif; */
-
+/* font-family: 'Raleway', sans-serif; */
 
 #root {
-  --main-color: #2196F3;
-  --Sec-color : #1787E0;
-  --back-color : #F3F5FA
+  --main-color: #2196f3;
+  --Sec-color: #1787e0;
+  --back-color: #f3f5fa;
 }
-
-
-
 
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
-font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
 html {
@@ -29,7 +23,8 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 
 /* fonts */
-
-
