@@ -1,13 +1,11 @@
 #client {
   padding: 100px 0;
-  opacity: 0.9;
-  background-image: url("../../../assets/images/client-ground.jpg");
+  /* opacity: 0.8; */
+  background-image: url("../../../assets/images/cta-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(10%);
+  background-size: initial;
 }
 
 .client-content {
@@ -25,13 +23,24 @@
 
 .client-box h3 {
   font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #fff;
-  font-weight: 600;
-  padding: 20px 0;
+  font-weight: 900;
+  padding: 10px 0;
 }
 
 .client-box p {
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
+  /* color: var(--main-color); */
   font-weight: 800;
+}
+
+/*  media query   */
+
+@media screen and (max-width: 990px) {
+  .client-box {
+    border: 2px solid #fff;
+    padding: 20px 0;
+  }
 }
