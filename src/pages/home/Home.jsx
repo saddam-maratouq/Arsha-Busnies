@@ -5,6 +5,7 @@ import Feathers from "./Featchers/Feathers";
 
 // Sections
 import Header from "./header/Header";
+import Team from "./team/Team";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <About />
       <Feathers />
       <Clients />
+      <Team />
     </>
   );
 };

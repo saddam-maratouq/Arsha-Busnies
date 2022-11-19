@@ -1,0 +1,44 @@
+#team {
+  padding: 200px 0;
+  background-color: var(--back-color);
+}
+
+#team h1 {
+  margin-bottom: 150px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--main-color);
+}
+
+#team .row {
+  --bs-gutter-x: 1rem !important;
+  --bs-gutter-y: 3rem !important;
+}
+
+.team-box {
+  text-align: center;
+  color: var(--main-color);
+  transition: ease-in 1.8s;
+}
+
+.team-box:hover {
+  transform: skewX(5deg);
+}
+
+.team-box img {
+  border-radius: 15px 15px 0 0;
+  cursor: pointer;
+}
+
+.team-box h3 {
+  margin: 10px 0;
+}
+
+.team-box span {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #898282;
+}
+
+/* border: 2px solid red; */
