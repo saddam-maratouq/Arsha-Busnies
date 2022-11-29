@@ -18,7 +18,7 @@ const Team = () => {
       <h1 className="text-center   "> Our Team </h1>
       <div className="container">
         <div className="row    ">
-          <div className=" col-lg-3 col-md-6   team-box">
+          <div className=" col-lg-3 col-md-6  team-box">
             <img src={fredreko} alt="person  " className="img-fluid" />
             <h3> Fredreko </h3>
             <span> Chief Executive Officer</span>
